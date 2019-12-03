@@ -3,9 +3,11 @@ h2 {
     margin: 0;
 }
 .services {
+    height: 300px;
     border: 3px solid black;
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 50% 50%;
 }
 
 .service {
@@ -15,10 +17,13 @@ h2 {
 
 .service-1 {
     background-color: darkviolet;
+    grid-column-start: 3;
+    grid-column-end: 4;
 }
 
 .service-2 {
     background-color: limegreen;
+
 }
 .service-3 {
     background-color: teal;
