@@ -3,6 +3,11 @@ h2 {
     margin: 0;
 }
 .services {
+    display: grid;
+    grid: 50% 50% / 33.33% 33.33% 33.33%;
+    grid-auto-flow: row;
+    grid-auto-flow: column;
+    grid-auto-flow: dense;
     border: 3px solid black;
     height: 300px;
 }
@@ -14,6 +19,7 @@ h2 {
 
 .service-1 {
     background-color: darkviolet;
+    grid-row: 2 / 3;
 }
 
 .service-2 {
