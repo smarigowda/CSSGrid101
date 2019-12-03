@@ -19,12 +19,22 @@ h2 {
     background-color: darkviolet;
     grid-column-start: 3;
     grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
 .service-2 {
     background-color: limegreen;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
 
 }
 .service-3 {
     background-color: teal;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
